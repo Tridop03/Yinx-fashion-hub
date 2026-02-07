@@ -1,12 +1,13 @@
 
 import React from 'react';
+import { LOGO, LOGO_FOOTER } from '../assets/index';
 
 export const Logo: React.FC<{ className?: string }> = ({ className = "h-12 w-12" }) => (
-  <img src="/assets/yinx logo 1.png" alt="Yinx Fashion Hub Logo" className={className} />
+  <img src={LOGO} alt="Yinx Fashion Hub Logo" className={className} />
 );
 
 export const LogoFooter: React.FC<{ className?: string }> = ({ className = "h-12 w-12" }) => (
-  <img src="/assets/gold  2 f 2.png" alt="Yinx Fashion Hub Footer Logo" className={className} />
+  <img src={LOGO_FOOTER} alt="Yinx Fashion Hub Footer Logo" className={className} />
 );
 
 export const WhatsAppIcon: React.FC<{ className?: string }> = ({ className = "h-5 w-5" }) => (

@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { FabricType, Product } from './types';
+import { PRODUCTS } from './assets/index';
 
 export const BRAND_COLORS = {
   GOLD: '#997010',
@@ -15,7 +16,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     name: 'Classic Monochrome Dotted Ankara',
     price: 14500,
     type: FabricType.ANKARA,
-    image: '/assets/prdtImg7.png', // Black & White pattern vibe
+    image: PRODUCTS.PRODUCT_7, // Black & White pattern vibe
     description: 'A sophisticated black and white Ankara print featuring rhythmic dotted patterns and geometric borders. Perfect for modern traditional wear.',
     material: '100% Cotton',
     color: 'Black, White',
@@ -27,7 +28,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     name: 'Earth-Tone Cracked Adire Batik',
     price: 25000,
     type: FabricType.ADIRE,
-    image: '/assets/prdtImg4.png', // Brown/Orange texture vibe
+    image: PRODUCTS.PRODUCT_4, // Brown/Orange texture vibe
     description: 'Exquisite hand-dyed Adire Batik on soft brocade. Features a stunning cracked earth pattern in warm orange and brown tones.',
     material: 'Premium Brocade Cotton',
     color: 'Orange, Brown, Yellow',
@@ -39,7 +40,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     name: 'Indigo Blue Mandala Adire',
     price: 28000,
     type: FabricType.ADIRE,
-    image: '/assets/prdtImg5.png', // Blue mandala vibe
+    image: PRODUCTS.PRODUCT_5, // Blue mandala vibe
     description: 'A masterpiece of traditional craftsmanship. This deep indigo fabric features a large, intricate hand-drawn mandala motif.',
     material: '100% Organic Cotton',
     color: 'Indigo, Royal Blue',
@@ -51,7 +52,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     name: 'Fiery Sunset Geometric Ankara',
     price: 15000,
     type: FabricType.ANKARA,
-    image: '/assets/prdtImg2.png', // Multi-color geometric vibe
+    image: PRODUCTS.PRODUCT_2, // Multi-color geometric vibe
     description: 'Bold geometric patterns meeting vibrant sunset hues. This high-quality Ankara fabric is durable and retains its color after many washes.',
     material: '100% Cotton Wax',
     color: 'Orange, Purple, Black',
@@ -63,7 +64,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     name: 'Azure Mosaic Batik Adire',
     price: 25000,
     type: FabricType.ADIRE,
-    image: '/assets/prdtImg3.png', // Blue/white mosaic vibe
+    image: PRODUCTS.PRODUCT_3, // Blue/white mosaic vibe
     description: 'Modern interpretation of classic Adire. Features a tiled mosaic effect in various shades of blue and white.',
     material: 'Polished Cotton',
     color: 'White, Blue, Navy',
@@ -75,7 +76,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     name: 'Emerald Swirl Abstract Ankara',
     price: 14500,
     type: FabricType.ANKARA,
-    image: '/assets/prdtImg1.png', // Green swirl vibe
+    image: PRODUCTS.PRODUCT_1, // Green swirl vibe
     description: 'An artistic blend of emerald green swirls on a deep black background, highlighted with shimmering gold dust patterns.',
     material: '100% Cotton Wax',
     color: 'Green, Black, Gold',
@@ -87,7 +88,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     name: 'Royal Purple Geometric Print',
     price: 16000,
     type: FabricType.ANKARA,
-    image: '/assets/pink and black ankara.png', // Purple geometric vibe
+    image: PRODUCTS.PINK_AND_BLACK_ANKARA, // Purple geometric vibe
     description: 'A majestic combination of deep purple and vibrant yellow geometric shapes. Designed for making a statement at any occasion.',
     material: 'High-Grade Cotton Wax',
     color: 'Purple, Yellow, White',
@@ -99,7 +100,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     name: 'Floral Bloom Signature Ankara',
     price: 15500,
     type: FabricType.ANKARA,
-    image: '/assets/prdtImg8.png', // Flower pattern vibe
+    image: PRODUCTS.PRODUCT_8, // Flower pattern vibe
     description: 'A refreshing white-base Ankara fabric featuring large, colorful floral and leaf motifs in blue, green, and orange.',
     material: 'Super Wax Cotton',
     color: 'White, Blue, Orange, Green',

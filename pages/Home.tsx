@@ -5,6 +5,7 @@ import { ChevronRight } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
 import { SAMPLE_PRODUCTS } from '../constants';
 import { FabricType } from '../types';
+import { HERO } from '../assets/index';
 
 const Home: React.FC = () => {
   const ankaraProducts = SAMPLE_PRODUCTS.filter(p => p.type === FabricType.ANKARA).slice(0, 4);
@@ -16,7 +17,7 @@ const Home: React.FC = () => {
       <section className="-mx-4 md:-mx-8 -mt-8 relative overflow-hidden">
         <div className="relative h-[300px] md:h-[450px] lg:h-[500px] w-full overflow-hidden">
           <img 
-            src="\assets\pink and black ankara.png" 
+            src={HERO.PRIMARY} 
             alt="Premium African Fabrics" 
             className="w-full h-full object-cover"
           />
