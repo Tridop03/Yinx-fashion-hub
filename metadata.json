@@ -1,0 +1,7 @@
+{
+  "name": "Yinx Fashion Hub",
+  "description": "A premium African fabric e-commerce platform specializing in Ankara and Adire textiles, featuring a complete shopping flow from product discovery to bank transfer payment.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
