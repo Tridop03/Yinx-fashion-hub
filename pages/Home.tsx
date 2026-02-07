@@ -16,7 +16,7 @@ const Home: React.FC = () => {
       <section className="-mx-4 md:-mx-8 -mt-8 relative overflow-hidden">
         <div className="relative h-[300px] md:h-[450px] lg:h-[500px] w-full overflow-hidden">
           <img 
-            src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=2000&h=1000" 
+            src="\assets\pink and black ankara.png" 
             alt="Premium African Fabrics" 
             className="w-full h-full object-cover"
           />

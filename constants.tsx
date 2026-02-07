@@ -15,7 +15,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     name: 'Classic Monochrome Dotted Ankara',
     price: 14500,
     type: FabricType.ANKARA,
-    image: 'https://images.unsplash.com/photo-1544006659-f0b21f04cb1d?auto=format&fit=crop&q=80&w=800&h=800', // Black & White pattern vibe
+    image: '/assets/prdtImg7.png', // Black & White pattern vibe
     description: 'A sophisticated black and white Ankara print featuring rhythmic dotted patterns and geometric borders. Perfect for modern traditional wear.',
     material: '100% Cotton',
     color: 'Black, White',
@@ -27,7 +27,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     name: 'Earth-Tone Cracked Adire Batik',
     price: 25000,
     type: FabricType.ADIRE,
-    image: 'https://images.unsplash.com/photo-1582142306909-195724d33ffc?auto=format&fit=crop&q=80&w=800&h=800', // Brown/Orange texture vibe
+    image: '/assets/prdtImg4.png', // Brown/Orange texture vibe
     description: 'Exquisite hand-dyed Adire Batik on soft brocade. Features a stunning cracked earth pattern in warm orange and brown tones.',
     material: 'Premium Brocade Cotton',
     color: 'Orange, Brown, Yellow',
@@ -39,7 +39,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     name: 'Indigo Blue Mandala Adire',
     price: 28000,
     type: FabricType.ADIRE,
-    image: 'https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80&w=800&h=800', // Blue mandala vibe
+    image: '/assets/prdtImg5.png', // Blue mandala vibe
     description: 'A masterpiece of traditional craftsmanship. This deep indigo fabric features a large, intricate hand-drawn mandala motif.',
     material: '100% Organic Cotton',
     color: 'Indigo, Royal Blue',
@@ -51,7 +51,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     name: 'Fiery Sunset Geometric Ankara',
     price: 15000,
     type: FabricType.ANKARA,
-    image: 'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&q=80&w=800&h=800', // Multi-color geometric vibe
+    image: '/assets/prdtImg2.png', // Multi-color geometric vibe
     description: 'Bold geometric patterns meeting vibrant sunset hues. This high-quality Ankara fabric is durable and retains its color after many washes.',
     material: '100% Cotton Wax',
     color: 'Orange, Purple, Black',
@@ -63,7 +63,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     name: 'Azure Mosaic Batik Adire',
     price: 25000,
     type: FabricType.ADIRE,
-    image: 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&q=80&w=800&h=800', // Blue/white mosaic vibe
+    image: '/assets/prdtImg3.png', // Blue/white mosaic vibe
     description: 'Modern interpretation of classic Adire. Features a tiled mosaic effect in various shades of blue and white.',
     material: 'Polished Cotton',
     color: 'White, Blue, Navy',
@@ -75,7 +75,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     name: 'Emerald Swirl Abstract Ankara',
     price: 14500,
     type: FabricType.ANKARA,
-    image: 'https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&q=80&w=800&h=800', // Green swirl vibe
+    image: '/assets/prdtImg1.png', // Green swirl vibe
     description: 'An artistic blend of emerald green swirls on a deep black background, highlighted with shimmering gold dust patterns.',
     material: '100% Cotton Wax',
     color: 'Green, Black, Gold',
@@ -87,7 +87,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     name: 'Royal Purple Geometric Print',
     price: 16000,
     type: FabricType.ANKARA,
-    image: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=800&h=800', // Purple geometric vibe
+    image: '/assets/pink and black ankara.png', // Purple geometric vibe
     description: 'A majestic combination of deep purple and vibrant yellow geometric shapes. Designed for making a statement at any occasion.',
     material: 'High-Grade Cotton Wax',
     color: 'Purple, Yellow, White',
@@ -99,7 +99,7 @@ export const SAMPLE_PRODUCTS: Product[] = [
     name: 'Floral Bloom Signature Ankara',
     price: 15500,
     type: FabricType.ANKARA,
-    image: 'https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&q=80&w=800&h=800', // Flower pattern vibe
+    image: '/assets/prdtImg8.png', // Flower pattern vibe
     description: 'A refreshing white-base Ankara fabric featuring large, colorful floral and leaf motifs in blue, green, and orange.',
     material: 'Super Wax Cotton',
     color: 'White, Blue, Orange, Green',

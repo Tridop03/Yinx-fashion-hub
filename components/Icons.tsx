@@ -2,48 +2,11 @@
 import React from 'react';
 
 export const Logo: React.FC<{ className?: string }> = ({ className = "h-12 w-12" }) => (
-  <svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
-    <defs>
-      <linearGradient id="goldGradientLogo" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stopColor="#997010" />
-        <stop offset="30%" stopColor="#D4AF37" />
-        <stop offset="50%" stopColor="#F5D76E" />
-        <stop offset="70%" stopColor="#D4AF37" />
-        <stop offset="100%" stopColor="#70520D" />
-      </linearGradient>
-      <filter id="goldShadow" x="-20%" y="-20%" width="140%" height="140%">
-        <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
-        <feOffset dx="2" dy="2" />
-        <feComponentTransfer>
-          <feFuncA type="linear" slope="0.3" />
-        </feComponentTransfer>
-        <feMerge>
-          <feMergeNode />
-          <feMergeNode in="SourceGraphic" />
-        </feMerge>
-      </filter>
-    </defs>
-    <g filter="url(#goldShadow)">
-      {/* Outer Circle */}
-      <circle cx="256" cy="256" r="230" stroke="url(#goldGradientLogo)" strokeWidth="24" fill="none" />
-      
-      {/* Stylized Y and F Monogram based on user image */}
-      {/* Horizontal Main Bar */}
-      <path d="M60 300 L452 220" stroke="url(#goldGradientLogo)" strokeWidth="28" strokeLinecap="round" />
-      
-      {/* Left side 'Y' structures */}
-      <path d="M120 180 Q 200 220 200 300" stroke="url(#goldGradientLogo)" strokeWidth="26" fill="none" strokeLinecap="round" />
-      <path d="M240 100 L200 300" stroke="url(#goldGradientLogo)" strokeWidth="26" strokeLinecap="round" />
-      
-      {/* Right side 'F' structures */}
-      <path d="M320 80 L320 420" stroke="url(#goldGradientLogo)" strokeWidth="26" strokeLinecap="round" />
-      <path d="M320 120 L440 120" stroke="url(#goldGradientLogo)" strokeWidth="26" strokeLinecap="round" />
-      <path d="M320 230 L400 230" stroke="url(#goldGradientLogo)" strokeWidth="26" strokeLinecap="round" />
-      
-      {/* Bottom connecting bar/curve */}
-      <path d="M200 300 L320 420" stroke="url(#goldGradientLogo)" strokeWidth="26" strokeLinecap="round" />
-    </g>
-  </svg>
+  <img src="/assets/yinx logo 1.png" alt="Yinx Fashion Hub Logo" className={className} />
+);
+
+export const LogoFooter: React.FC<{ className?: string }> = ({ className = "h-12 w-12" }) => (
+  <img src="/assets/gold  2 f 2.png" alt="Yinx Fashion Hub Footer Logo" className={className} />
 );
 
 export const WhatsAppIcon: React.FC<{ className?: string }> = ({ className = "h-5 w-5" }) => (
