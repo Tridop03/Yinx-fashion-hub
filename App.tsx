@@ -2,17 +2,17 @@
 import React, { useState, useCallback } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
-import Home from '../pages/Home';
-import ProductDetail from '../pages/ProductDetail';
-import Cart from '../pages/Cart';
-import Checkout from '../pages/Checkout';
-import Payment from '../pages/Payment';
-import Success from '../pages/Success';
-import Login from '../pages/Account/Login';
-import Register from '../pages/Account/Register';
-import Profile from '../pages/Account/Profile';
-import Enquiries from '../pages/Enquiries';
-import FabricListing from '../pages/FabricListing';
+import Home from './pages/Home';
+import ProductDetail from './pages/ProductDetail';
+import Cart from './pages/Cart';
+import Checkout from './pages/Checkout';
+import Payment from './pages/Payment';
+import Success from './pages/Success';
+import Login from './pages/Account/Login';
+import Register from './pages/Account/Register';
+import Profile from './pages/Account/Profile';
+import Enquiries from './pages/Enquiries';
+import FabricListing from './pages/FabricListing';
 import { CartItem } from './types';
 
 const App: React.FC = () => {
